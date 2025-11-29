@@ -38,7 +38,6 @@ public class EmployeeController {
         {
             return  emp;
         }
-// cicd
         return new Employee();
     }
     @Operation(summary = "Get all Employee",description = "Fetch all the employees")
