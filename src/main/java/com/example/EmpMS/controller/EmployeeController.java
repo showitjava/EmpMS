@@ -89,5 +89,9 @@ public class EmployeeController {
         "department": "CS",
         "salary": "10000"
     }*/
+    @GetMapping("/testing")
+    public String testing(){
+        return "Testing controller";
+    }
 
 }
