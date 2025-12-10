@@ -91,7 +91,7 @@ public class EmployeeController {
     }*/
     @GetMapping("/testing")
     public String testing(){
-        return "this  controller is working fine and successfully deploy my changes to AWS";
+        return "Testing controller";
     }
 
 }
