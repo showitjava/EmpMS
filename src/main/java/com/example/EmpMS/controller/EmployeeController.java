@@ -93,5 +93,10 @@ public class EmployeeController {
     public String testing(){
         return "Deployed on AWS server !";
     }
+    @GetMapping("/testing1")
+    public String testing1(){
+        return "Checking jenkins server";
+    }
+
 
 }
